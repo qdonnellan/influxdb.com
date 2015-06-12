@@ -36,10 +36,10 @@ title = "support"
 					<td data-label="contacts"><b>1</b> contact</td>
 					<td data-label="email support"><b>&#10003;</b></td>
 					<td data-label="emergency support"><b>30 Days</b></td>
-					<td data-label="support align-center"><form action="/charge" method="POST">
+					<td data-label="support align-center"><form action="http://localhost:5000/api/support_charges" method="POST">
 						<script
 							src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_live_YqkcDTFvohavPUkSV9ZtI7oO"
+							data-key="pk_test_raFtCBUQIROL9yvZdgFy532f" 
 							data-image="/img/influx-128.png"
 							data-name="InfluxDB"
 							data-description="Developer Support Plan"
